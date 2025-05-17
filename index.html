@@ -1,43 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./to-do-list.png" type="image/x-icon">
-    <title>To do list</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="./to-do-list.png" type="image/x-icon" />
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div class="main-cont">
+  <div class="main-cont">
+    <div class="cont1">
+      <div class="heading">
+        <h2>To-Do List</h2>
+        
+      </div>
 
-        <div class="cont1">
-            <div class="heading">
-                <h2>To-Do-List</h2>
-                <div><img width="30" height="30" src="data:image/png;base64,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" alt=""> </div>
-            </div>
+      <div class="add-task">
+        <input class="main-input" type="text" placeholder="Create a task" />
+        <button class="add-btn">Add</button>
+      </div>
 
-            <div class="add-task">
-                <div class="input"><input class="main-input" type="text" placeholder="Create a task"></div>
-                <div class="add-btn">Add</div>
-            </div>
-
-            <div class="list" >
-                <div class ="list-first" >
-                    <img width="25" height="25" src="rec.png" alt="">
-                    
-                </div>
-                <div class="list-second">
-                    <div class="list-text"></div>
-                    <div class="list-cross">
-                        <img width="20" height="20" src="cross (2).png" alt="">
-                    </div>
-                </div>
-            </div>
-
-            
+      <!-- Template for list items -->
+      <div class="list template">
+        <div class="list-first">
+          <img width="25" height="25" src="rec.png" alt="toggle" />
         </div>
+        <div class="list-second">
+          <div class="list-text"></div>
+          <div class="list-actions">
+            <img class="list-edit" src="edit.png" width="20" height="20" alt="edit" />
+            <img class="list-cross" src="cross.png" width="20" height="20" alt="delete" />
+          </div>
+        </div>
+      </div>
 
     </div>
-    <script src="script.js"></script>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
