@@ -33,4 +33,4 @@ Start adding, editing, or deleting tasks as needed.
 
 Screenshots
 
-![ToDo List Screenshot](./Screenshot 2025-09-28 175520.png)
+![ToDo List Screenshot](https://github.com/Priya-creates/to-do-list/blob/main/Screenshot%202025-09-28%20175520.png?raw=true)
